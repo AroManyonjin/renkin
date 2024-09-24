@@ -22,5 +22,5 @@ jobs:
         run: pip install -r requirements.txt
       - name: Run Pythonenv
         env:
-          TEST_SECRET: ${{ secrets.TEST_SECRET }}
+          TEST_SECRET: "AAA"
         run: python python-sample.py
